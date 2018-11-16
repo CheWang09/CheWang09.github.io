@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Project"
-description: "Description of Project #1"
+description: "Still considering what I can put here"
 header-img: "img/home-bg.jpg"
-category: project1
+category: project
 ---

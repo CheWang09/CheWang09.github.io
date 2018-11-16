@@ -3,7 +3,7 @@ layout:     post
 title:      LSTM
 author:     CHENEY WANG
 tags: 		DeepLearning
-header-img:  "img/manhanton.jpg"
+header-img:  ""
 subtitle:  	Introduction of LSTM (LSTM模型介绍)
 category:  project
 ---
