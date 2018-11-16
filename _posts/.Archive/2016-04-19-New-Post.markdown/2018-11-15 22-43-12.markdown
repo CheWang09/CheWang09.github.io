@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Markdown Tutorial
-author:     CHENEY WANG
+title:      New Post
+author:     Ch
 tags: 		post template
 subtitle:  	Some Short Description of Post
-category:  project
+category:  project1
 ---
 <!-- Start Writing Below in Markdown -->
 
