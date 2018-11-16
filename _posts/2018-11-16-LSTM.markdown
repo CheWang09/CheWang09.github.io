@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      LSTM
+author:     CHENEY WANG
+tags: 		post template DeepLearning
+subtitle:  	Introduction of LSTM (LSTM模型介绍)
+category:  project
+---
+<!-- Start Writing Below in Markdown -->
+
+## What is LSTM?
+LSTM is based on Recurrent Neural Network
+
+
+
+
+
+
+
+
