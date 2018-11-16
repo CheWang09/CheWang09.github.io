@@ -13,8 +13,9 @@ headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
+github_username:  CheWang09
+linkedin_username: che-wang-53857914a
+project_repository: CheWang09.github.io
 disqus_shortname: project-pages
 g-analytics: UA-75881392-1
 altmetric: true
