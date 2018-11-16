@@ -1,0 +1,9 @@
+---
+layout:     plysurface
+title:      2018.11.15
+author:     CHENEY WANG
+tags: 		plysurface visualization template
+subtitle:   My first blog file
+
+plydata: 	/ply/ChunkColoredWeb.ply
+---
