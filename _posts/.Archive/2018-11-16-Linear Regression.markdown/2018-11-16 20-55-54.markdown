@@ -24,7 +24,7 @@ $$
 \end{align}
 $$
 <br > Linear regression 的优化方式是最小化Hypothesis函数，而最小化Hypothesis函数自然也就引申到了最小二乘法的损失函数。
-最小二乘法也就是我们日常所说的最小平方差，一个是从图像方面可以推导，即每个点到回归线的距离的平方值。 另外对于贝叶斯学派来说，我们通过条件概率推导，也一样可以得到损失函数是最小二乘法。
+最小二乘法也就是我们日常suo
 
 ### Loss function of Linear Regression:
 $$
