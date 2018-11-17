@@ -15,7 +15,8 @@ category:  project
         This post, I'm gonna introduce logistic regression from frequentist perspective, and I will add conduction of logistic regression from bayes perspective.
 ## Logistic Regression Summary
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
-![image](/_posts/_image/2018-11-17/2018-11-17-15-09-09.png)
+![](./_image/2018-11-17/2018-11-17-15-09-09.png)
+![image](\_post\_image\2018-)
 ## Mathmatical function of LR:
 ### Base function( hypothesis fucntion of linear regression )
 $$ 
