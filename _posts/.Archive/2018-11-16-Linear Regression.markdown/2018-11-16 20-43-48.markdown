@@ -41,14 +41,10 @@ Gradient descent is a method like climbers look down from hill peek , and go dow
 Repeat until convergence:
 $$
 \begin{align}
-& θ_j = : θ_j - α \frac{\partial J(θ)}{\partial (θ_{j})} \text { $\alpha$ is learning rate} \\
-& θ \in \mathbb{R} \\
-&
+& θ_j = : θ_j - α \frac{dJ(θ)}{d(θ_{j})} \text {α is learning rat} 
+theta
 \end{align}
 $$
-####Learning rate a
-If $\alpha $ is small, so it would be a tiny tiny baby step.
-If $\alpha $ is large, it would be a large step which may fail to converage.
 
 ## Regularization：
 Regularization is a very important technique in machine learning to prevent overfitting. Mathematically speaking, it adds a regularization term in order to prevent the coefficients to fit so perfectly to overfit. The difference between the L1 and L2 is just that L2 is the sum of the square of the weights, while L1 is just the sum of the weights. As follows:
