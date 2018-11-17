@@ -12,7 +12,7 @@ category:  project
 ## **线性回归回顾**:
 # *What is linear regression*:
     Simple linear regression is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables  or multivariables.
-![linear regression picture](/img/Linear_regression.png)
+![linear regression picture](/img/linear_regression.jpg)
 
 Above is the plot of linear regression.
 
