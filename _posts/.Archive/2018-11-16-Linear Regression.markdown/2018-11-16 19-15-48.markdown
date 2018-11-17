@@ -2,7 +2,8 @@
 layout:     post
 title:      Linear Regression
 author:     CHENEY WANG
-tags: 		MachineLearning Review
+tags: 		- Machine Learning
+                        Review
 header-img:  "img/manhanton.jpg"
 subtitle:  	Linear Regression Review
 category:  project
