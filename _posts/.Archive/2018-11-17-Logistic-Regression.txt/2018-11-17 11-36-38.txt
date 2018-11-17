@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      Logistic Regression
+author:     CHENEY WANG
+tags: 		MachineLearning Review
+header-img:  "img/manhanton.jpg"
+subtitle:  	Logistic Regression Review
+category:  project
+---
+<!-- Start Writing Below in Markdown -->
+
+
+# 逻辑回归回顾
+<br > 目前我们zhe
+## Logistic Regression Summary
+
