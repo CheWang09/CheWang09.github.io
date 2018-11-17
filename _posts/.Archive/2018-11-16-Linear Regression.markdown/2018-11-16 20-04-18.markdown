@@ -1,0 +1,52 @@
+---
+layout:     post
+title:      Linear Regression
+author:     CHENEY WANG
+tags: 		MachineLearning Review
+header-img:  "img/manhanton.jpg"
+subtitle:  	Linear Regression Review
+category:  project
+---
+<!-- Start Writing Below in Markdown -->
+
+# **线性回归回顾**
+<br >
+## What is linear regression:
+Simple linear regression is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables  or multivariables.
+
+![linear regression picture](/img/Linear_regression.png)
+Above is the plot of linear regression.
+## Mathmatical Function of Linear Regression:
+### Hypothesis Function:
+$$
+\begin{center} 
+\text{Hypothesis:} H_w(X) = W_1+W_1X_2+ ... + W_nX_n
+\end{center}
+$$
+<br > Linear regression 的优化方式是最小化Hypothesis函数，而最小化Hypothesis函数自然也就引申到了最小二乘法的损失函数。
+
+###Loss function of Linear Regression:
+$$
+\begin{center}
+J_i(θ) = \frac{1}{2m} sum_{i=1}^{m}(h_θ(x^{i})-y^{i})^{2}
+
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

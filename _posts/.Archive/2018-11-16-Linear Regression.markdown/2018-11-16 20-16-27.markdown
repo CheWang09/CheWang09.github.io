@@ -36,30 +36,9 @@ $$
 
 所以对于线性回归的loss function, 这是一个bowl-shaped function. 所以通过gradient descent比较容易收敛到得到$J_min(W)$。
 
-### Gradient descent:
-Gradient descent is a method like climbers look down from hill peek , and go down step by step. Of course, the step size could be tuned by people.
 
 ## Regularization：
-Regularization is a very important technique in machine learning to prevent overfitting. Mathematically speaking, it adds a regularization term in order to prevent the coefficients to fit so perfectly to overfit. The difference between the L1 and L2 is just that L2 is the sum of the square of the weights, while L1 is just the sum of the weights. As follows:
-### L1 Regularization:
-Linear Regression with L1 regularization also named Lasso Regression.
-$$ 
-\begin{align}
-& L1-norm = λ \sum_{i=1}^{m}|W|
-\end{align}
-$$
-
-### L2 Regularization:
-Linear Regression with L2 regularization named Ridge Regression.
-$$ 
-\begin{align}
-& L2-norm = \frac{λ}{2} \sum_{i=1}^{m}(W)^{2}
-\end{align}
-$$
-And **$\frac{1}{2}**$ here is to simply computation. 
-
-
-
+### 
 
 
 

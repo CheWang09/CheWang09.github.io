@@ -56,7 +56,7 @@ $$
 & L2-norm = \frac{λ}{2} \sum_{i=1}^{m}(W)^{2}
 \end{align}
 $$
-And **$\frac{1}{2}**$ here is to simply computation. 
+And $\frac$
 
 
 
