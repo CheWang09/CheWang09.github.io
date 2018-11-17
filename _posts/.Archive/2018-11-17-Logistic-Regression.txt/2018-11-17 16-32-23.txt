@@ -15,7 +15,7 @@ category:  project
         This post, I'm gonna introduce logistic regression from frequentist perspective, and I will add conduction of logistic regression from bayes perspective.
 ## Logistic Regression Summary
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
-![image](/img/Post_image/2018-11-17-15-09-09.png)
+/img/Post_image/2018-11-17-15-09-09.png
 ## Mathmatical function of LR:
 ### Base function( hypothesis fucntion of linear regression )
 $$ 
@@ -46,7 +46,7 @@ $$
 J(\theta) = (y^i - H_\theta(X^{i}))
 \end{align}
 $$
-![imgae](/img/Post_image/2018-11-17-15-22-06.png)
+![non convex](/_posts/_image/2018-11-17/2018-11-17-15-22-06.png)
 
 In order to overcome this issue, we use logistic loss as our loss function and cross-entry as our cost function.
 $$
@@ -58,7 +58,8 @@ To \ fit \ parameter \ \theta : \\
 & min_\theta J(\theta)
 \end{align}
 $$
-![image](/img/Post_image/2018-11-17-15-37-25.png)
+
+![amg](/_posts/_image/2018-11-17/2018-11-17-15-37-25.png)
 $$ 
 \begin{align}
 &\text{Cost} = -log(h_\theta(x)) \quad &if \ \  y = 1 \\
@@ -66,7 +67,7 @@ $$
 &But\ as \ h_\theta \rightarrow 0, & cost \rightarrow \infty
 \end{align}
 $$
-![aas](/img/Post_image/2018-11-17-15-37-39.png)
+![](./_image/2018-11-17/2018-11-17-15-37-39.png)
 $$ 
 \begin{align}
 &\text{Cost} = -log(1-h_\theta(x)) \quad &if \ \  y = 0 \\
