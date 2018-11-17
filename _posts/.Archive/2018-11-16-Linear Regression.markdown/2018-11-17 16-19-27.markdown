@@ -96,7 +96,7 @@ $$
 \end{align}
 $$
 
-Therefore, $\lambda$ was introduced to minimize the value of $\theta$ by minus an extra value. And this is the main purpose of regularization.
+Therefore, $\lambda$ was introduced to minimize the value of $\theta$ by minus an extra value
 
 
 

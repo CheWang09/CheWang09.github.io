@@ -90,13 +90,9 @@ $$
 Then gradient descent will repeat :
 $$
 \begin{align}
-\theta_0 & = \theta_0 - \alpha \frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_0^{i} \\
-\theta_j & = \theta_j - \alpha[\frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_j^{i}+\frac{\lambda}{m}\theta_j] \\
-& = \theta_j(1 - \alpha \frac{\lambda}{m}) - \alpha\frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_j^{i}
+\theta_0 & = \theta_0 - 
 \end{align}
 $$
-
-Therefore, $\lambda$ was introduced to minimize the value of $\theta$ by minus an extra value. And this is the main purpose of regularization.
 
 
 

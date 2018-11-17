@@ -80,23 +80,9 @@ $$
 Cost function like this, then derivate of cost function :
 $$
 \begin{align}
-\frac{\partial J(θ)}{\partial \theta_j} & = (y \frac{1}{g(\theta^{T}x)} - (1-y) \frac{1}{1-g(\theta^{T}x)} ) \frac{ \partial g(\theta^{T}x)}{\partial \theta_j} \\
-& = (y \frac{1}{g(\theta^{T}x)} - (1-y) \frac{1}{1-g(\theta^{T}x)} )g(\theta^{T}x)(1- g(\theta^{T}x)) \frac{\partial \theta^{T}x}{\theta_j} \\
-& = (y(1-g(\theta^{T}x)) - (1-y)g(\theta^{T}x))x_j \\
-& = (y - h_\theta(x)) x_j
+J_i(θ) = \frac{1}{2m} [ \sum_{i=1}^{m}(h_θ(x^{i})-y^{i})^{2} + \lambda \sum_{i=1}^{n} \theta^{2} 
 \end{align}
 $$
-
-Then gradient descent will repeat :
-$$
-\begin{align}
-\theta_0 & = \theta_0 - \alpha \frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_0^{i} \\
-\theta_j & = \theta_j - \alpha[\frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_j^{i}+\frac{\lambda}{m}\theta_j] \\
-& = \theta_j(1 - \alpha \frac{\lambda}{m}) - \alpha\frac{1}{m} \sum_{1}^{m}(h_\theta(x^i) - y^i)x_j^{i}
-\end{align}
-$$
-
-Therefore, $\lambda$ was introduced to minimize the value of $\theta$ by minus an extra value. And this is the main purpose of regularization.
 
 
 

@@ -78,18 +78,7 @@ $$
 Therefore, it will penalize learning algorithm by a large cost if y is not equal to $h_\theta(x)$
 
 ### Regularization
-Same as regularization in linear regression, here we always use L2-norm as our penality item.
-
-$$
-\begin{align}
-J(\theta) & =  \frac{1}{m} \sum_{i=1}^{m} \text{Cost}
-(h_\theta(x^i), y^i) \\
- &= -\frac{1}{m} \sum_{i=1}^{m} [y^ilog \ h_\theta(x^i) + (1 - y^i) \ log \ (1 - h_\theta(x^i)]  + \frac{\lambda}{2m} \sum_{j=1}^{m}\theta_j^{2}
-\end{align}
-$$
-
-
-
+Same as regularization in linear regression, here we always use L2-norm as out
 
 
 

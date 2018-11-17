@@ -40,54 +40,13 @@ $$
 $$
 And different from linear regression, the graph of this function is not a bowl-shaped funciton . Therefore, it would be hard to get a global minimum. So loss function of logistic regression is different from linear regression.
 ### Cost function of LR:
-If we use least square as our loss function, the cost function would be a non-convex function that we can not get global minimum.  
+If we use least square as our loss function, it would be a non-convex function that we can not get global minimum. 
 $$
 \begin{align}
-J(\theta) = (y^i - H_\theta(X^{i}))
+J(\theta) = 
 \end{align}
 $$
 ![non convex](/_posts/_image/2018-11-17/2018-11-17-15-22-06.png)
-
-In order to overcome this issue, we use logistic loss as our loss function and cross-entry as our cost function.
-$$
-\begin{align}
-J(\theta) & =  \frac{1}{m} \sum_{i=1}^{m} \text{Cost}
-(h_\theta(x^i), y^i) \\
- &= -\frac{1}{m} \sum_{i=1}^{m} [y^ilog \ h_\theta(x^i) + (1 - y^i) \ log \ (1 - h_\theta(x^i)]  \\
-To \ fit \ parameter \ \theta : \\
-& min_\theta J(\theta)
-\end{align}
-$$
-
-![amg](/_posts/_image/2018-11-17/2018-11-17-15-37-25.png)
-$$ 
-\begin{align}
-&\text{Cost} = -log(h_\theta(x)) \quad &if \ \  y = 1 \\
-&Cost = 0 \ \ &if  \ y =1 , h_\theta = 1 \\ 
-&But\ as \ h_\theta \rightarrow 0, & cost \rightarrow \infty
-\end{align}
-$$
-![](./_image/2018-11-17/2018-11-17-15-37-39.png)
-$$ 
-\begin{align}
-&\text{Cost} = -log(1-h_\theta(x)) \quad &if \ \  y = 0 \\
-&Cost = 0 \ \ &if  \ y =0 , h_\theta = 0 \\ 
-&But\ as \ h_\theta \rightarrow 1, & cost \rightarrow \infty
-\end{align}
-$$
-Therefore, it will penalize learning algorithm by a large cost if y is not equal to $h_\theta(x)$
-
-### Regularization
-Same as regularization in linear regression, here we always use L2-norm as our penality item.
-
-$$
-\begin{align}
-J(\theta) & =  \frac{1}{m} \sum_{i=1}^{m} \text{Cost}
-(h_\theta(x^i), y^i) \\
- &= -\frac{1}{m} \sum_{i=1}^{m} [y^ilog \ h_\theta(x^i) + (1 - y^i) \ log \ (1 - h_\theta(x^i)]  + \frac{\lambda}{2m} \sum_{j=1}^{m}\theta_j^{2}
-\end{align}
-$$
-
 
 
 
