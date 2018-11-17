@@ -28,7 +28,7 @@ $$
 ###Loss function of Linear Regression:
 $$
 \begin{center}
-J_i(θ) = \frac{1}{2m} sum_{i=1}^{m}(h_θ(x^{i})-y^{i})^{2}
+J(θ) = \frac{1}{2m} sum_i^{m}
 $$
 
 

@@ -1,0 +1,20 @@
+{
+    "": [
+        "2018-11-16-linear regression.markdown", 
+        "2018-11-16-lstm.markdown", 
+        "2018-11-15-new-post.markdown", 
+        "post"
+    ], 
+    "__positions": {
+        "2018-11-16-lstm.markdown": 2, 
+        "2018-11-15-new-post.markdown": 3, 
+        "2018-11-16-linear regression.markdown": 1, 
+        "post": 4
+    }, 
+    "__raw_positions": {
+        "2018-11-16-lstm.markdown": 2, 
+        "2018-11-15-new-post.markdown": 3, 
+        "2018-11-16-linear regression.markdown": 1, 
+        "post": 4
+    }
+}
