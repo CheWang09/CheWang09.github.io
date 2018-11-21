@@ -19,7 +19,7 @@
     ], 
     "__positions": {
         "_posts/2018-11-19-huobi.md": 6001, 
-        "_posts/2018-11-15-new-post.markdown": 6008, 
+        "_posts/2018-11-15-new-post.markdown": 6007, 
         "_posts": 6, 
         "_posts/2018-11-16-travel.md": 6005, 
         "_posts/2018-11-19-4.md": 6002, 
@@ -35,9 +35,8 @@
         "js": 9, 
         "img/post_image": 8001, 
         "about.md": 2, 
-        "_posts/2018-11-16-lstm.markdown": 6007, 
         "_layouts": 5, 
-        "_posts/2018-11-17-logistic-regression.md": 6009, 
+        "_posts/2018-11-17-logistic-regression.md": 6008, 
         "search": 15, 
         "_posts/2018-11-19-2.md": 6004, 
         "img": 8, 
@@ -47,7 +46,7 @@
         "img/logos": 8003, 
         "_includes": 4, 
         "projectors": 13, 
-        "_posts/image": 6010
+        "_posts/image": 6009
     }, 
     "_posts": [
         "2018-11-19-huobi.md", 
@@ -56,13 +55,18 @@
         "2018-11-19-2.md", 
         "2018-11-16-travel.md", 
         "2018-11-16-linear regression.markdown", 
-        "2018-11-16-lstm.markdown", 
         "2018-11-15-new-post.markdown", 
         "2018-11-17-logistic-regression.md", 
         "image"
     ], 
+    "img": [
+        "post_image", 
+        "icons", 
+        "logos", 
+        "travelphoto"
+    ], 
     "__raw_positions": {
-        "_posts/2018-11-15-new-post.markdown": 8, 
+        "_posts/2018-11-15-new-post.markdown": 7, 
         "_posts": 6, 
         "img/travelphoto": 4, 
         "_posts/2018-11-16-travel.md": 5, 
@@ -72,14 +76,13 @@
         "lib": 10, 
         "img/icons": 2, 
         "license.md": 3, 
-        "_posts/2018-11-17-logistic-regression.md": 9, 
+        "_posts/2018-11-17-logistic-regression.md": 8, 
         "_posts/2018-11-16-linear regression.markdown": 6, 
         "css": 7, 
         "ply": 12, 
         "js": 9, 
         "img/post_image": 1, 
         "about.md": 2, 
-        "_posts/2018-11-16-lstm.markdown": 7, 
         "_layouts": 5, 
         "projects": 14, 
         "search": 15, 
@@ -91,12 +94,6 @@
         "img/logos": 3, 
         "_includes": 4, 
         "projectors": 13, 
-        "_posts/image": 10
-    }, 
-    "img": [
-        "post_image", 
-        "icons", 
-        "logos", 
-        "travelphoto"
-    ]
+        "_posts/image": 9
+    }
 }
