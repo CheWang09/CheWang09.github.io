@@ -36,10 +36,11 @@
         "img/post_image": 8001, 
         "_posts/2018-12-06.md": 6001, 
         "about.md": 2, 
+        "_posts/2018-11-19-2.md": 6006, 
         "_layouts": 5, 
         "_posts/2018-11-17-logistic-regression.md": 6010, 
         "search": 15, 
-        "_posts/2018-11-19-2.md": 6006, 
+        "_posts/2018-12-06.markdown": 6011, 
         "img": 8, 
         "img/travelphoto": 8004, 
         "stl": 16, 
@@ -48,7 +49,7 @@
         "_includes": 4, 
         "_posts/2018-11-21-\u5b9e\u4f53\u5173\u7cfb\u62bd\u53d6.md": 6002, 
         "projectors": 13, 
-        "_posts/image": 6011
+        "_posts/image": 6012
     }, 
     "_posts": [
         "2018-12-06.md", 
@@ -61,6 +62,7 @@
         "2018-11-16-linear regression.markdown", 
         "2018-11-15-new-post.markdown", 
         "2018-11-17-logistic-regression.md", 
+        "2018-12-06.markdown", 
         "image"
     ], 
     "img": [
@@ -88,6 +90,7 @@
         "img/post_image": 1, 
         "_posts/2018-12-06.md": 1, 
         "about.md": 2, 
+        "_posts/2018-12-06.markdown": 11, 
         "_layouts": 5, 
         "projects": 14, 
         "search": 15, 
@@ -100,6 +103,6 @@
         "_includes": 4, 
         "_posts/2018-11-21-\u5b9e\u4f53\u5173\u7cfb\u62bd\u53d6.md": 2, 
         "projectors": 13, 
-        "_posts/image": 11
+        "_posts/image": 12
     }
 }
